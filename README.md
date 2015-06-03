@@ -43,9 +43,11 @@ To use the Email Class:
   Tasks.email params
   ```
   
-  Template Name is to be given when you are sending a template
-  File path is to be given if you are attaching a file
-  if no sender name is given, a default email address is used. 
+Template Name is to be given when you are sending a template
+  
+File path is to be given if you are attaching a file.
+  
+If no sender name is given, a default email address is used. 
 
 ## Contributing
 
