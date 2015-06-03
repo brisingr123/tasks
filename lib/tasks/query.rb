@@ -4,7 +4,6 @@ require 'pg'
 
 class Tasks::Query
   def initialize params
-    p params
     @query= params[:query]
     @file_name= params[:file_name]
     @config= params[:config]
