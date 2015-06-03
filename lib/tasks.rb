@@ -1,7 +1,9 @@
+require 'mandrill'
 require "tasks/version"
 require "tasks/emailer"
 require "tasks/query"
 require 'pry-byebug'
+
 
 class Tasks
 

@@ -1,4 +1,4 @@
-require 'mandrill'
+
 require "base64"
 require 'dotenv'
 require 'pry-byebug'
