@@ -7,7 +7,7 @@ TODO: Write a gem description
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'tasks'
+gem 'tasks' , git: git@github.com:brisingr123/tasks.git
 ```
 
 And then execute:
@@ -26,7 +26,7 @@ To use the query class:
   
   Tasks.query params 
   ```
-  
+
   file_name is an optional field. If you give file name, the data will be stored in a CSV
 
 To use the Email Class: 
