@@ -1,7 +1,3 @@
-
-require "base64"
-
-require 'pry-byebug'
 Dotenv.load
 $mandrill = Mandrill::API.new ENV['MANDRILL_API_KEY']
 

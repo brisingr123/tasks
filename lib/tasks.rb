@@ -1,5 +1,6 @@
 require 'mandrill'
 require 'dotenv'
+require "base64"
 require "tasks/version"
 require "tasks/emailer"
 require "tasks/query"
