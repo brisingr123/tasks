@@ -1,6 +1,5 @@
-require 'dotenv'
-Dotenv.load
-require 'pg'
+
+
 
 class Tasks::Query
   def initialize params

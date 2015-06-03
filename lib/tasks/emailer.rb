@@ -1,11 +1,7 @@
-Dotenv.load
-$mandrill = Mandrill::API.new ENV['MANDRILL_API_KEY']
-
-
-
 class Tasks::Emailer
 
 def initialize(params)    
+    $mandrill = Mandrill::API.new ENV['MANDRILL_API_KEY']
     begin
 
         @email = params[:email]
