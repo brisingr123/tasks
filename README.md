@@ -7,7 +7,7 @@ TODO: Write a gem description
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'tasks' , git: git@github.com:brisingr123/tasks.git
+gem 'tasks' , :git => 'git://github.com/brisingr123/tasks.git'
 ```
 
 And then execute:
