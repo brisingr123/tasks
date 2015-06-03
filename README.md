@@ -1,6 +1,6 @@
 # Tasks
 
-TODO: Write a gem description
+This gem is built to automate tasks involving sending and retrieving data. 
 
 ## Installation
 
