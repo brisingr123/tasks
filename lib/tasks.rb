@@ -1,11 +1,10 @@
 require 'mandrill'
 require 'dotenv'
 require "base64"
-require 'pg'
+require "pg"
 require "tasks/version"
 require "tasks/emailer"
 require "tasks/query"
-require 'pry-byebug'
 Dotenv.load
 
 

@@ -4,5 +4,5 @@ source 'https://rubygems.org'
 gem 'pg'
 gem 'mandrill-api'
 gem 'dotenv'
-gem 'pry-byebug'
+
 gemspec
