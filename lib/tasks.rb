@@ -5,6 +5,7 @@ require "pg"
 require "tasks/version"
 require "tasks/emailer"
 require "tasks/query"
+require 'csv'
 Dotenv.load
 
 

@@ -30,14 +30,14 @@ class Tasks::Query
   end 
 
   def save_to_csv data
-    File.open(@file_name,'w') do |csv|
-      csv << data.first.keys
-    end
-    File.open(@file_name,'w') do |csv|
-      data.each do |tuple|
-        csv << tuple.values
+    column_names = data.first.keys
+    s=CSV.generate do |csv|
+      csv << column_names
+      data.each do |x|
+        csv << x.values
       end
-    end
+    end 
+    File.write("#{@file_name}", s)
   end
 
   def run
