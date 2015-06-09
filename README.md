@@ -32,13 +32,13 @@ To use the query class:
 To use the Email Class: 
   ```ruby
   params={
-        email: = 'example',
-        name: = 'example',
-        sender_email: = 'example',
-        sender_nam:e= 'example',
-        subject: = 'example',
-        template_name: = 'example',
-        file_path: = 'example'}
+        email:  'example',
+        name:  'example',
+        sender_email:  'example',
+        sender_nam:e 'example',
+        subject:  'example',
+        template_name:  'example',
+        file_path:  'example'}
   
   Tasks.email params
   ```
