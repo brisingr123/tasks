@@ -32,7 +32,7 @@ class Tasks::Query
   def save_to_csv data
       
     s=CSV.generate do |csv|
-      if data.length == 0
+      if data.length != 0
         column_names = data.first.keys
         csv << column_names
         data.each do |x|
